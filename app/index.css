@@ -1,0 +1,73 @@
+body {
+	background: #3567a3;
+	color: #12063e;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Verdana';
+	text-shadow: 5px 8px 3px #333;
+}
+
+#edit {
+	resize: none;
+	outline: none;
+	background: transparent;
+	font-size: 2em;
+	color: white;
+}
+
+#app {
+	display: flex;
+	height: 100vh;
+}
+
+#app > * {
+	margin: 0.4em;
+	padding: 0.3em;
+	flex: 1;
+}
+
+#edit, #op {
+	background: transparent;
+	color: white;
+	word-wrap: break-word;
+	overflow: auto;
+	width: 100%;
+}
+
+#edit {
+	outline: none;
+	font-size: 3em;
+	border: 3px dotted black;
+	resize: none;
+}
+
+pre {
+	font-size: 3em;
+}
+
+button  {
+    color: #BADA55;
+    padding: 8px 15px;
+    font-size: 24px;
+    background: transparent;
+    font-family: cursive;
+    overflow: hidden;
+    border-color: transparent;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .5s cubic-bezier(.02,.01,.47,1);
+    outline: none;
+}
+
+button:hover {
+    color: #00e0ba;
+    border-color: transparent;
+    border-bottom: 1px solid #1ba74f;
+}
